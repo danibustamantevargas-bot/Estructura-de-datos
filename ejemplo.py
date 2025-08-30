@@ -36,6 +36,7 @@ def setpromedio(self, __promedio: float) -> none:
             maria = Estudiante("Maria", 22, "Ingenieria")
             print(juan.saludar())
             print(maria.saludar())
+            maria.setPromedio(9.5)
             juan.altura= 1.75
             print(juan)
-print(maria.__promedio)
+
